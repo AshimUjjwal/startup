@@ -11,12 +11,7 @@
 			exit();
 		}
 	
-	 
-	
-
-	
-    
-    if(isset($_POST['submit']))
+	if(isset($_POST['submit']))
     {
 	   $email=mysqli_real_escape_string($connection,$_POST['email']);
 	   $password=mysqli_real_escape_string($connection,$_POST['password']);
